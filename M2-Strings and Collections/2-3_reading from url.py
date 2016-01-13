@@ -15,3 +15,13 @@ with urlopen('http://sixty-north.com/c/t.txt') as story:
 		line_words = line.decode('utf-8').split()	# difference here: decoding the bytes
 		for word in line_words:
 			story_words.append(word)
+
+
+# Putting it all together:
+# * urllib.urlopen()
+# * with-statement
+# * list
+# * for-loop
+# * bytes.split()
+# * bytes.decode()
+# * str.split()
