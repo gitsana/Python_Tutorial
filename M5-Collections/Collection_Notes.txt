@@ -1,0 +1,26 @@
+-tuple: heterogeneous immutable sequence. once created, objects cannot be replaced or removed, and new elements cannot be added
+
+t = ("Norway", 4.998, 3)
+like a list, but "(" instead of "["
+
+-str
+-range
+-list
+-dict
+-set
+
+-mutable: CAN be altered
+-immutable: CANNOT be changed
+
+---- IMMUTABLE ----
+* numeric types (int, float, complex)
+* string: homogeneous immutable sequence of Unicode codepoints (characters)
+* tuple: heterogeneous immutable sequence. once created, objects cannot be replaced or removed, and new elements cannot be added
+* frozen set
+* bytes
+
+---- MUTABLE ----
+list: heterogeneous mutable sequence
+dict
+set
+byte array
