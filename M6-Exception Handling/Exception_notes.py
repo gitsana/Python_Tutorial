@@ -13,6 +13,7 @@ TypeError: tend not to guard against these in Python bc limits reuse potential o
 Programmer errors such as indendation or syntax errors should not normally be handled
 Exceptional conditions can be signaled using the raise keyword.
 	raise WITHOUT an argument re-raises the current exception
+Exceptional objects can be converted to strings using str()
 # try-finally
 # finally gets executed NO MATTER HOW the try-block exits
 import os
